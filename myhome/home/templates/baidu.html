@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>
+    <h2> 动态百度查询 </h2>
+    <table border="1">
+        <tr>
+        {% for a in key %}
+            <th>{{ a }}</th>   
+        {% endfor %}
+        </tr>
+        <tr>
+        {% for b in jieguo %}
+            <td>{{ b }}</td>
+        {% endfor %}
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
