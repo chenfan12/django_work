@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>
+        <form action="/pcwork/baidu2/" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="text" name="text1" placeholder="请输入需要用百度查询的内容"/>
+            <input  type="submit" value="提交" \>
+        </form>
+    </div>
+</body>
+</html>

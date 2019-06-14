@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>
+    <table border="1" align="center">
+        <tr>
+            <th>电影名</th>
+            <th>电影简介</th>
+        </tr>
+        {% for m in movies %}
+        <tr>
+            <td>{{ m.movie_name }}</td>
+            <td>{{ m.movie_data }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    </div>
+</body>
+</html>
